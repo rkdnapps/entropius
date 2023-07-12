@@ -1,14 +1,15 @@
-# entropius by @rkdnapps on GitHub 07/11/2023
-#
-# Started as a pandemic project to test the speed of finding prime factors from
-# random input.  Picked it back up three years later to see what the free
-# version of ChatGPT (https://chat.openai.com/) could do in terms of improving
-# the basic code.  Added support for multi-threading, splitting the factoring
-# evenly across all available threads, and variable bit lengths for the input.  
-# Makes a good burn-in test for new builds.  Finding large prime factors from 
-# random input should get much faster as CPU core counts move into the 1000s.
-# OpenCL version for GPU testing might be a future project.
-#
+/* entropius by @rkdnapps on GitHub 07/11/2023
+ *
+ * Started as a pandemic project to test the speed of finding prime factors from
+ * random input.  Picked it back up three years later to see what the free
+ * version of ChatGPT (https://chat.openai.com/) could do in terms of improving
+ * the basic code.  Added support for multi-threading, splitting the factoring
+ * evenly across all available threads, and variable bit lengths for the input.  
+ * Makes a good burn-in test for new builds.  Finding large prime factors from 
+ * random input should get much faster as CPU core counts move into the 1000s.
+ * OpenCL version for GPU testing might be a future project.
+ *
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
