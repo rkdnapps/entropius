@@ -10,8 +10,8 @@ to Windows under MSYS2.
 
 If you've never used MSYS under Windows, you'll want to read these:
 
-https://www.msys2.org
-https://learn.microsoft.com/en-us/vcpkg/users/platforms/mingw
+```https://www.msys2.org
+https://learn.microsoft.com/en-us/vcpkg/users/platforms/mingw```
 
 Make sure to do:
 
