@@ -2,6 +2,7 @@
 
 A simple program that generates random numbers and finds potential prime factors.
 
+```
 Started as a pandemic project to test the speed of finding prime factors from
 random input on Linux. Picked it back up recently to test the free version
 of ChatGPT and its ability to help port/improve code. Expanded it to allow
@@ -10,8 +11,8 @@ to Windows under MSYS2.
 
 If you've never used MSYS under Windows, you'll want to read these:
 
-```https://www.msys2.org
-https://learn.microsoft.com/en-us/vcpkg/users/platforms/mingw```
+https://www.msys2.org
+https://learn.microsoft.com/en-us/vcpkg/users/platforms/mingw
 
 Make sure to do:
 
