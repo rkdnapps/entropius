@@ -64,8 +64,8 @@ void* findLargestFactor(void* arg) {
 
 int main(int argc, char* argv[]) {
     if (argc < 3) {
-        printf("Usage: %s <number of bits> <number of threads>\n", argv[0]);
-        printf("Example: %s 32 32\n", argv[0]);
+        printf("Usage: %s <number of threads> <number of bits>\n", argv[0]);
+        printf("Example: %s 48 36\n", argv[0]);
         return 1;
     }
 
